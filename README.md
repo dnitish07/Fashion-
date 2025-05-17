@@ -22,7 +22,7 @@ The Fashion Outfit Generator is an innovative web application that leverages a s
 ## 🚀 Demo
 
 #### Check out our live demo [here](https://fashion-outfit-generator.vercel.app)
-#### Check out demo video [VIDEO](https://www.loom.com/share/8d13532be92d4796a1be1915ddb88864?sid=396493c2-d527-415e-aed6-867ce29180fa)
+#### Check out demo video [VIDEO]([https://www.loom.com/share/8d13532be92d4796a1be1915ddb88864?sid=396493c2-d527-415e-aed6-867ce29180fa](https://www.loom.com/share/41bad03aea814023b3b1067b440aaa03))
 
 ## 🛠️ Getting Started
 
