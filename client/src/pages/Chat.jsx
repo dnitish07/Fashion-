@@ -7,7 +7,7 @@ import { firestore } from "../utils/firebase-config";
 
 const { Configuration, OpenAIApi } = require("openai");
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 const configuration = new Configuration({
   apiKey: OPENAI_API_KEY,
@@ -15,7 +15,7 @@ const configuration = new Configuration({
 
 configuration.baseOptions.headers = {
   Authorization:
-    "Bearer " + "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",
+    "Bearer " + "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",
 };
 
 const openai = new OpenAIApi(configuration);
