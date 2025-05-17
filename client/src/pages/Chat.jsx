@@ -122,7 +122,7 @@ function Chat() {
     setBotIsGenerating(true);
     try {
       const generateResponse = await fetch(
-        "https://outfitter-backend.onrender.com/generate-image",
+        "https://fashion-outfit-frontend.onrender.com/generate-image",
         {
           method: "POST",
           headers: {
@@ -139,7 +139,7 @@ function Chat() {
 
       if (inferenceId) {
         const getImageResponse = await fetch(
-          `https://outfitter-backend.onrender.com/get-image/37d42ae9-5f5f-4399-b60b-014d35e762a5/${inferenceId}`
+          `https://fashion-outfit-frontend.onrender.com/get-image/37d42ae9-5f5f-4399-b60b-014d35e762a5/${inferenceId}`
         );
         const getImageData = await getImageResponse.json();
         const imageUrl = getImageData.imageUrl;
