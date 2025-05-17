@@ -6,8 +6,10 @@ const { generateImage, getImage } = require("./controllers/leapApiController");
 const app = express();
 app.use(cors());
 
-app.listen(8000, () => {
-    console.log('Server listening on port 8000');
+const PORT = process.env.PORT || 8000;
+
+app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}`);
 });
 
 app.use(express.json());
