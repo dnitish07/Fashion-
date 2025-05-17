@@ -40,7 +40,7 @@ To get started with the Outfit Generator on your local machine, follow these ste
 1. Clone the repository:
    
   ```
-  git clone https://github.com/AnishLohiya/Fashion-Outfit-Generator.git
+  git clone https://github.com/dnitish07/Fashion-Outfit-Generator.git
   ```
 
 2.Change into the project directory and install the necessary packages:
